@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* *{
+            padding: 0;
+            margin: 0;
+            text-decoration: none;
+            box-sizing: border-box;
+
+        } */
+
+        h1{
+            left: 15%;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+            height: 50%;
+
+        }
+        .ingresar{
+        margin-top:30px;
+        margin-left: 30px;
+        font-family:'Times New Roman', Times, serif;
+        }
+        .genero, .noticias, .descri{
+            margin-left: 30px;
+        }
+        textarea{
+            height: 80px;
+            width: 30%;
+        }
+        .interes{
+            margin-left: 30px;
+            width: 50%;
+            height: 50%;
+        }
+        .boton{
+            margin-left: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>¡Registrate y únete a la comunidad!</h1>
+
+    <div class="ingresar">
+        <p>Nombre: <input type="text"></input><br></p>
+        <p>Apellido: <input type="text"></input>
+        <p>Correo electronico: <input type="email"></input></p>
+        <p>Contraseña: <input type="password"></input></p>
+        <p>Confirmar contraseña: <input type="password"></input></p>
+        <p>Fecha de nacimiento: <input type="date"></input></p>
+    </div>
+    <div class="genero">
+        <p>
+            Género: <input type="radio">Masculino</input>
+                    <input type="radio">Femenino</input>
+                    <input type="radio">Prefiero no decir</input>
+        </p>
+    </div>
+    <div class="noticias">
+        <p>
+            <input type="checkbox"> Suscríbete a nuestro boletín de noticias
+        </p>
+    </div>
+    <div class="descri">
+        <p>
+            Una descripción de mi mismo:<br>
+            <textarea></textarea>
+        </p>
+    </div>
+    <div class="interes">
+        Selecciona tus intereses: <p>
+        <select>
+            <option value="musica">Música</option>
+            <option value="deportes">Deportes</option>
+            <option value="viajes">Viajes</option>
+            <option value="tecnologia">Tecnología</option>
+        </select>
+    </p>
+    </div>
+    <div class="boton">
+        <input type="submit" name="btn" value="¡Registrarse!" ></input>
+    </div>
+</body>
+</html>
