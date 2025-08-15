@@ -1,0 +1,58 @@
+.container {
+    width: 950px;
+    background-color: #eaeaea;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 15px;   /* 👈 esto agrega separación de los bordes */
+    box-sizing: border-box;
+}
+
+
+/* Bloque amarillo arriba */
+.top-nav {
+    height: 150px;
+    width: 100%;
+    background-color: #ffcc00;
+}
+
+/* Contenedor principal (rosa) */
+.main {
+    flex: 1;
+    height: 400px;
+    width: 700px;
+    background-color: deeppink;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+    padding: 10px;
+}
+
+/* Bloques azules en fila */
+.sub {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-content {
+    height: 200px;
+    width: 210px;
+    background-color: mediumblue;
+}
+
+/* Bloque verde */
+#advertisement {
+    height: 120px;
+    width: 100%;
+    background-color: #33cc33;
+    margin-top: 50px;
+}
+
+/* Bloque celeste a la derecha */
+.side-nav {
+    width: 220px;
+    height: 380px;
+    background-color: #66ccff;
+    margin-top: 10px;
+}
