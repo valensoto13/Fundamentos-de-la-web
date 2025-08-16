@@ -12,7 +12,7 @@
 }
 
 .side-nav{
-    background-color: aquamarine;
+    background-color: #E8FFD7;
     width: 96.7%;
     padding: 10px;
     margin-left: 10px;
@@ -26,7 +26,7 @@
     height: 400%;
     width: 98%;
     /* padding: 10px; */
-    background-color: blueviolet;
+
     margin-left: 10px;
     
     .arriba{
@@ -36,7 +36,7 @@
     padding: 50px;
     /* margin-top: 15px; */
     /* margin-left: -10px; */
-    background-color: blue;
+    background-color: #3E5F44;
 
         img{
             height: 330px;
@@ -51,7 +51,7 @@
     display: flex;
     gap: 70px;
     padding: 30px;
-    background-color: red;
+    background-color: #5E936C;
 
         img{
             height: 330px;
@@ -65,7 +65,7 @@
     display: flex;
     gap: 70px;
     padding: 30px;
-    background-color: green;
+    background-color: #93DA97;
 
         img{
             height: 330px;
