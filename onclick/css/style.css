@@ -1,0 +1,92 @@
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f7f7f7;
+    }
+
+    /* NAVBAR */
+    header {
+      background: #800040;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    .search-container {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      margin: 0 20px;
+    }
+
+    .search-container input {
+      width: 60%;
+      padding: 5px;
+    }
+
+    .login-btn {
+      background: #007bff;
+      color: white;
+      border: none;
+      padding: 8px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    /* TARJETAS */
+    .card {
+      background: white;
+      margin: 20px auto;
+      padding: 15px;
+      width: 80%;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .card h2 {
+      margin: 5px 0;
+    }
+
+    .card p {
+      margin: 5px 0;
+      color: #555;
+    }
+
+    .like-btn {
+      background: #f7f7f7;
+      border: 1px solid #ccc;
+      padding: 5px 10px;
+      border-radius: 3px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    /* SECCIÓN ACCIÓN */
+    .action {
+      background: white;
+      margin: 20px auto;
+      padding: 15px;
+      width: 80%;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      text-align: center;
+    }
+
+    .action button {
+      background: #28a745;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .action button:hover {
+      background: #218838;
+    }
